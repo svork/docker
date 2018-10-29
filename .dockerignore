@@ -1,0 +1,12 @@
+# .dockerignore
+# Tells which files not to build into the image
+# https://docs.docker.com/engine/reference/builder/#dockerignore-file
+
+# Ignore git files
+.git
+.gitignore
+*.md
+
+# Ignore Docker files
+Dockerfile
+.dockerignore
