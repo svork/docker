@@ -36,6 +36,6 @@ services:
         constraints: [node.role == manager]
     command: redis-server --appendonly yes
     networks:
-      -webnet
+      - webnet
 networks:
   webnet:
